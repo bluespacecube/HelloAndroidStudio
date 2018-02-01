@@ -16,7 +16,8 @@
         android:orientation="vertical"
         android:scrollbars="vertical"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/myTextView"
@@ -58,6 +59,13 @@
             android:isScrollContainer="false"
             android:orientation="vertical"
             android:scrollbarAlwaysDrawVerticalTrack="false"></LinearLayout>
+
+        <Button
+            android:id="@+id/testDialogBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="testDialogBtnClick"
+            android:text="Test Custom Dialog" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

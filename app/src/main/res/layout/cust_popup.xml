@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="top|bottom|start|end|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+    android:id="@+id/saph_linlay"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <ImageView
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/saph_imgview" />
+
+    <TextView
+        android:id="@+id/saph_txt"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="winner!"
+        android:textColor="#ff000000"
+        android:textSize="36sp" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:id="@+id/saph_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="continue" />
+</LinearLayout>
