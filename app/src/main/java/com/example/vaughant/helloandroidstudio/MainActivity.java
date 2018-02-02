@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar =  findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
             });
         }
         ((Button) deleteDialogView.findViewById(R.id.saph_btn)).setText(btnmsg);
-        ImageView op = (ImageView) deleteDialogView.findViewById(R.id.saph_imgview);
+        ImageView op = deleteDialogView.findViewById(R.id.saph_imgview);
         ((TextView) deleteDialogView.findViewById(R.id.saph_txt)).setText(msg);
         if (img != null) {
             op.setImageDrawable(img);

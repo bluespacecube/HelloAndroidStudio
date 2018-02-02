@@ -7,7 +7,6 @@ import android.widget.TextView;
  */
 
 public class TestBaseClass {
-
     public void doSomething(TextView tv){
         String text = "This is method DoSomething from TestBaseClass";
         setTextViewText(tv, text);

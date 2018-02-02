@@ -46,10 +46,11 @@
             android:text="Test Base" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/testDialogBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick="testDialogBtnClick"
+            android:text="Test Custom Dialog" />
 
         <LinearLayout
             android:id="@+id/items_linLay"
@@ -60,12 +61,6 @@
             android:orientation="vertical"
             android:scrollbarAlwaysDrawVerticalTrack="false"></LinearLayout>
 
-        <Button
-            android:id="@+id/testDialogBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="testDialogBtnClick"
-            android:text="Test Custom Dialog" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
